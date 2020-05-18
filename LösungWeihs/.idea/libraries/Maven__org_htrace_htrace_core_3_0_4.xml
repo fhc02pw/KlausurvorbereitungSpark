@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Maven: org.htrace:htrace-core:3.0.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar!/" />
+    </CLASSES>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,8 @@
+<service>
+  <id>secondarynamenode</id>
+  <name>secondarynamenode</name>
+  <description>This service runs Hadoop secondarynamenode</description>
+  <executable>C:\apps\dist\java\bin\java</executable>
+  <arguments>-Xmx1000m  -Dhadoop.log.dir=C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\logs -Dhadoop.log.file=hadoop-secondarynamenode-HEADNODE0.log -Dhadoop.home.dir=C:\apps\dist\hadoop-2.6.0.2.2.9.1-7 -Dhadoop.id.str=HEADNODE0$ -Dhadoop.root.logger=INFO,console,DRFA,ETW,FilterLog,Anonymizer -Djava.library.path=;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\bin -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=INFO,RFAS -Dhdfs.audit.logger=INFO,RFAAUDIT -Dhadoop.security.logger=INFO,RFAS -Dhdfs.audit.logger=INFO,RFAAUDIT  -classpath C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\etc\hadoop;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\common\lib\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\common\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\hdfs;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\hdfs\lib\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\hdfs\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\yarn\lib\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\yarn\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\mapreduce\lib\*;C:\apps\dist\hadoop-2.6.0.2.2.9.1-7\share\hadoop\mapreduce\*;C:\apps\dist\azureLogging\*; org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode</arguments>
+<job_limit>true</job_limit>
+</service>
