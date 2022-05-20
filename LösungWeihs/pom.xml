@@ -11,7 +11,7 @@
 		<spark-avro>4.0.0</spark-avro>
 		<spark-twitter>1.6.3</spark-twitter>
 		<spark-graphframes>0.5.0-spark2.1-s_2.11</spark-graphframes>
-		<google-gson>2.8.2</google-gson>
+		<google-gson>2.8.9</google-gson>
 	</properties>
 
 	<dependencies>
