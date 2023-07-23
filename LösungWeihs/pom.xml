@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<spark-version>2.3.0</spark-version>
+		<spark-version>2.4.8</spark-version>
 		<spark-avro>4.0.0</spark-avro>
 		<spark-twitter>1.6.3</spark-twitter>
 		<spark-graphframes>0.5.0-spark2.1-s_2.11</spark-graphframes>
